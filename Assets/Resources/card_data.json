@@ -1,0 +1,204 @@
+{
+  "cards": [
+    {
+      "id": "F1",
+      "name": "Fire Wolf",
+      "attack": 5,
+      "cost": 3,
+      "type": "Fire",
+      "sprite": "Sprites/fire"
+    },
+    {
+      "id": "F2",
+      "name": "Flame Imp",
+      "attack": 3,
+      "cost": 1,
+      "type": "Fire",
+      "sprite": "Sprites/fire"
+    },
+    {
+      "id": "F3",
+      "name": "Blaze Golem",
+      "attack": 7,
+      "cost": 4,
+      "type": "Fire",
+      "sprite": "Sprites/fire"
+    },
+    {
+      "id": "F4",
+      "name": "Lava Drake",
+      "attack": 6,
+      "cost": 3,
+      "type": "Fire",
+      "sprite": "Sprites/fire"
+    },
+    {
+      "id": "F5",
+      "name": "Cinder Fox",
+      "attack": 4,
+      "cost": 2,
+      "type": "Fire",
+      "sprite": "Sprites/fire"
+    },
+    {
+      "id": "W1",
+      "name": "Water Spirit",
+      "attack": 4,
+      "cost": 2,
+      "type": "Water",
+      "sprite": "Sprites/water"
+    },
+    {
+      "id": "W2",
+      "name": "Tide Caller",
+      "attack": 5,
+      "cost": 3,
+      "type": "Water",
+      "sprite": "Sprites/water"
+    },
+    {
+      "id": "W3",
+      "name": "Ice Guardian",
+      "attack": 6,
+      "cost": 4,
+      "type": "Water",
+      "sprite": "Sprites/water"
+    },
+    {
+      "id": "W4",
+      "name": "Stream Pixie",
+      "attack": 3,
+      "cost": 1,
+      "type": "Water",
+      "sprite": "Sprites/water"
+    },
+    {
+      "id": "W5",
+      "name": "Aqua Serpent",
+      "attack": 5,
+      "cost": 3,
+      "type": "Water",
+      "sprite": "Sprites/water"
+    },
+    {
+      "id": "N1",
+      "name": "Forest Elf",
+      "attack": 3,
+      "cost": 1,
+      "type": "Nature",
+      "sprite": "Sprites/nature"
+    },
+    {
+      "id": "N2",
+      "name": "Vine Beast",
+      "attack": 5,
+      "cost": 2,
+      "type": "Nature",
+      "sprite": "Sprites/nature"
+    },
+    {
+      "id": "N3",
+      "name": "Grove Guardian",
+      "attack": 6,
+      "cost": 4,
+      "type": "Nature",
+      "sprite": "Sprites/nature"
+    },
+    {
+      "id": "N4",
+      "name": "Moss Turtle",
+      "attack": 4,
+      "cost": 2,
+      "type": "Nature",
+      "sprite": "Sprites/nature"
+    },
+    {
+      "id": "N5",
+      "name": "Thorn Stalker",
+      "attack": 5,
+      "cost": 3,
+      "type": "Nature",
+      "sprite": "Sprites/nature"
+    },
+    {
+      "id": "E1",
+      "name": "Rock Giant",
+      "attack": 7,
+      "cost": 4,
+      "type": "Earth",
+      "sprite": "Sprites/earth"
+    },
+    {
+      "id": "E2",
+      "name": "Clay Golem",
+      "attack": 5,
+      "cost": 3,
+      "type": "Earth",
+      "sprite": "Sprites/earth"
+    },
+    {
+      "id": "E3",
+      "name": "Stone Boar",
+      "attack": 4,
+      "cost": 2,
+      "type": "Earth",
+      "sprite": "Sprites/earth"
+    },
+    {
+      "id": "E4",
+      "name": "Granite Rhino",
+      "attack": 6,
+      "cost": 4,
+      "type": "Earth",
+      "sprite": "Sprites/earth"
+    },
+    {
+      "id": "E5",
+      "name": "Pebble Sprite",
+      "attack": 2,
+      "cost": 1,
+      "type": "Earth",
+      "sprite": "Sprites/earth"
+    },
+    {
+      "id": "A1",
+      "name": "Wind Hawk",
+      "attack": 3,
+      "cost": 1,
+      "type": "Air",
+      "sprite": "Sprites/air"
+    },
+    {
+      "id": "A2",
+      "name": "Gust Fox",
+      "attack": 4,
+      "cost": 2,
+      "type": "Air",
+      "sprite": "Sprites/air"
+    },
+    {
+      "id": "A3",
+      "name": "Sky Golem",
+      "attack": 6,
+      "cost": 4,
+      "type": "Air",
+      "sprite": "Sprites/air"
+    },
+    {
+      "id": "A4",
+      "name": "Whirl Pixie",
+      "attack": 2,
+      "cost": 1,
+      "type": "Air",
+      "sprite": "Sprites/air"
+    },
+    {
+      "id": "A5",
+      "name": "Storm Drake",
+      "attack": 5,
+      "cost": 3,
+      "type": "Air",
+      "sprite": "Sprites/air"
+    }
+  ]
+}
