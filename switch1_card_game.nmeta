@@ -30,6 +30,7 @@
     <UserAccountSaveDataJournalSize>0x0000000000000000</UserAccountSaveDataJournalSize>
     <LogoType>LicensedByNintendo</LogoType>
     <LogoHandling>Auto</LogoHandling>
+    <LegalInformationFilePath>Assets\Switch\SLIM\legal_info_0100acf026afa000_98c9_hac.zip</LegalInformationFilePath>
     <VideoCapture>Enable</VideoCapture>
     <RuntimeAddOnContentInstall>Deny</RuntimeAddOnContentInstall>
     <CrashReport>Allow</CrashReport>
