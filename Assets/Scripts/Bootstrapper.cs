@@ -8,8 +8,8 @@ namespace ResearchTCG
     /// </summary>
     public static class Bootstrapper
     {
-        [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
-        static void Init()
+        //[RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
+        public static void Init()
         {
             if (Object.FindFirstObjectByType<GameManager>() == null)
             {

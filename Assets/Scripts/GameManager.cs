@@ -218,6 +218,7 @@ namespace ResearchTCG
             playerPlayedImage = plImgGO.AddComponent<Image>();
             playerPlayedImage.transform.SetAsFirstSibling(); // 最背面に配置
             playerPlayedImage.preserveAspect = true; // アスペクト比維持
+            playerPlayedImage.color = Color.clear;
             var plImgRT = playerPlayedImage.rectTransform;
             plImgRT.anchorMin = new Vector2(0.12f, 0.42f); // 左側に
             plImgRT.anchorMax = new Vector2(0.12f, 0.42f);
@@ -489,12 +490,14 @@ namespace ResearchTCG
             if (aiPlayedImage != null)
             {
                 aiPlayedImage.sprite = null;
-                aiPlayedImage.color = Color.white;
+                //aiPlayedImage.color = Color.white;
+                aiPlayedImage.color = Color.clear;
             }
             if (playerPlayedImage != null)
             {
                 playerPlayedImage.sprite = null;
-                playerPlayedImage.color = Color.white;
+                //playerPlayedImage.color = Color.white;
+                playerPlayedImage.color = Color.clear;
             }
             if (aiLabel != null) aiLabel.text = "敵 AI";
             if (playerLabel != null) playerLabel.text = "あなた";
@@ -4859,8 +4862,18 @@ namespace ResearchTCG
                 if (rt != null) Destroy(rt.gameObject);
             }
 
-            // ボタンが押されるまで待機
-            // （ボタンがシーンをリロードするのでこのコルーチンは終了する）
+            
+            yield return new WaitForSeconds(5.0f);
+            //ユーザーの最新スコアの取得
+            int currentScore=PlayerPrefs.GetInt("PlayerScore");
+            if(playerScore> currentScore)
+            {
+                PlayerPrefs.SetInt("PlayerScore", playerScore);
+                PlayerPrefs.SetInt("AIScore", aiScore);
+            }
+            //タイトルに戻る
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Title");
+
         }
 
         // ========== ヘルパー関数 ==========
