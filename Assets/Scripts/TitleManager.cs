@@ -14,6 +14,7 @@ public class TitleManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+
         int currentScore = PlayerPrefs.GetInt("PlayerScore");
         int aiScore = PlayerPrefs.GetInt("AIScore");
         if (currentScore == 0)
@@ -24,7 +25,7 @@ public class TitleManager : MonoBehaviour
         {
             scoreText.text = $"ê¨ê—ÅFPlayer:{currentScore}-AI:{aiScore}";
         }
-            
+
     }
 
     // Update is called once per frame
