@@ -59,7 +59,7 @@ namespace ResearchTCG
         private readonly Dictionary<string, Sprite> spriteCache = new Dictionary<string, Sprite>();
 
         // --- Logging ---
-        private DataLogger logger;
+        //private DataLogger logger;
 
         // --- Util ---
         private System.Random rng = new System.Random();
@@ -125,6 +125,7 @@ namespace ResearchTCG
         {
             // Load card list from Resources/card_data.json
             var json = Resources.Load<TextAsset>("card_data");
+
             if (json == null)
             {
                 Debug.LogError("Missing Resources/card_data.json");
@@ -136,7 +137,7 @@ namespace ResearchTCG
                 allCards = list.cards.ToList();
             }
 
-            logger = new DataLogger(); // default path & file
+            //logger = new DataLogger(); // default path & file
         }
 
         // --- UI construction ---
@@ -566,8 +567,8 @@ namespace ResearchTCG
             UpdateHeader();
 
             // Log
-            logger.Append(participantId, turnNumber, playerCard, aiCard, result,
-                          playerScore, aiScore, reactionMs, playerHand.Count, timedOut);
+            //logger.Append(participantId, turnNumber, playerCard, aiCard, result,
+                          //playerScore, aiScore, reactionMs, playerHand.Count, timedOut);
 
             Debug.Log($"スコア - プレイヤー: {playerScore}, AI: {aiScore}");
 
@@ -670,7 +671,7 @@ namespace ResearchTCG
             {
                 Debug.Log("=== ゲーム終了 ===");
                 Debug.Log($"最終スコア - プレイヤー: {playerScore}, AI: {aiScore}");
-                Debug.Log($"ログ: {logger.GetLogPath()}");
+                //Debug.Log($"ログ: {logger.GetLogPath()}");
 
                 // 超派手な最終結果画面を表示
                 yield return StartCoroutine(ShowGameOverScreen());
@@ -5163,7 +5164,7 @@ namespace ResearchTCG
             {
                 Debug.Log("=== ゲーム終了 ===");
                 Debug.Log($"最終スコア - プレイヤー: {playerScore}, AI: {aiScore}");
-                Debug.Log($"ログ: {logger.GetLogPath()}");
+                //Debug.Log($"ログ: {logger.GetLogPath()}");
 
                 // 超派手な最終結果画面を表示
                 yield return StartCoroutine(ShowGameOverScreen());
