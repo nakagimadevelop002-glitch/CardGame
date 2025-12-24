@@ -1,0 +1,203 @@
+{
+    "name": "Controls",
+    "maps": [
+        {
+            "name": "Actions",
+            "id": "6f1bde51-301a-42da-9b71-4c4834246741",
+            "actions": [
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "dd17f524-ddcd-46a5-9a40-993896d59f4d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Shoot",
+                    "type": "Button",
+                    "id": "ef782bb1-da10-42db-83e0-7e7357bc56da",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "b81d1464-7402-49e7-a7f2-489e0d713bb5",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Reload",
+                    "type": "Button",
+                    "id": "e945e066-8853-41b2-9f18-b753db697dbe",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Aim",
+                    "type": "Button",
+                    "id": "336540f0-b101-4bfd-a3d3-f7f3d5dd10ad",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "05d51ef7-08b8-4376-b288-e942663ceb46",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Full Pad;Joy Left;Joy Right",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a386c41d-684e-4a22-8a6f-d08a1223f4b2",
+                    "path": "<NPad>/rightTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Full Pad",
+                    "action": "Shoot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0b30554c-b55a-410d-a3dc-3e7373257b06",
+                    "path": "<NPad>/leftSR",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Joy Left",
+                    "action": "Shoot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8d5075e9-b533-49ce-8d9e-bc6e09cb78a5",
+                    "path": "<NPad>/rightSR",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Joy Right",
+                    "action": "Shoot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f499d72b-557a-4b94-a91b-8dd29f7d4e6b",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Full Pad;Joy Left;Joy Right",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e19f7dcc-653b-4e68-a3ab-b2db36cb749b",
+                    "path": "<NPad>/rightShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Full Pad",
+                    "action": "Reload",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b56d7263-6c9f-4fc1-a971-9185f5de9e4f",
+                    "path": "<Gamepad>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Joy Left;Joy Right",
+                    "action": "Reload",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "38306d58-2dcf-48c6-bc94-0a7f1143f9eb",
+                    "path": "<NPad>/leftTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Full Pad",
+                    "action": "Aim",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9877406a-e646-4799-9216-54e2902e2164",
+                    "path": "<NPad>/leftSL",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Joy Left",
+                    "action": "Aim",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c3cd3f39-8fbf-4c5d-9dc7-124aaa92576c",
+                    "path": "<NPad>/rightSL",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Joy Right",
+                    "action": "Aim",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Full Pad",
+            "bindingGroup": "Full Pad",
+            "devices": [
+                {
+                    "devicePath": "<NPad>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "Joy Left",
+            "bindingGroup": "Joy Left",
+            "devices": [
+                {
+                    "devicePath": "<NPad>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "Joy Right",
+            "bindingGroup": "Joy Right",
+            "devices": [
+                {
+                    "devicePath": "<NPad>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}

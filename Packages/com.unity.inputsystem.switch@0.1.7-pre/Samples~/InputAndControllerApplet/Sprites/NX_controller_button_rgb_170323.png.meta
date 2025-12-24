@@ -1,0 +1,1478 @@
+fileFormatVersion: 2
+guid: 0234d56fd0303bc4cba747de98297374
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 1
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: PS4
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Nintendo Switch
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: PS5
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 561
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51520c57f5f01bd46b2f2e29253f7895
+      internalID: -1945471086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_1
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 561
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5699400e393332a45a7094cc06005098
+      internalID: 966228099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_2
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 561
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e2fffa2b6507d842b2bffabe3807a6b
+      internalID: 507375913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_3
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 561
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba6eb641b3c6c24438119a36480239db
+      internalID: 2071532767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_4
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 562
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ead92990007cd45a00e704bd6c95ce
+      internalID: 294675003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_5
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 561
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e1d4b9f6bdd4c44fbdba4c69e6d8f63
+      internalID: -1393373705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_6
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 561
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3064b38b1b6d9b34b8e8a8b67999f507
+      internalID: 1790215814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_7
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 561
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf4847969460e94e8b382f3d3c439f4
+      internalID: 1678248656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_8
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 561
+        width: 52
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c5a9f46c0724f343bddfe4c41b5053e
+      internalID: 194329531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_9
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 561
+        width: 52
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e0cf3a0593bea4887265cf796f7cf9
+      internalID: 108268254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 477
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be7d483b00e28348b41f3f40f521936
+      internalID: -1162790485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 477
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad11543d8b602b45adaa732a35a0ad7
+      internalID: 1302594555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 477
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8393882df1caa2d4b99baed074f380b2
+      internalID: 1175589191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_13
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 477
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00532298f2d00b345862db926bec7bcf
+      internalID: -482171240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_14
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 480
+        width: 52
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cff069a81495ca44b4dd827cafa83a9
+      internalID: -500353865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_15
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 480
+        width: 52
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc7db79bdf64a194e95fa41a037bee8b
+      internalID: -1447004376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_16
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 477
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a49011de0d68046bffac79215e6da5
+      internalID: -1745196410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_17
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 477
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40dd6c0a97fa608468bff9412e7fbc3b
+      internalID: 428542273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_18
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 482
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57db75349c8bca4f84e26dc4b6efe2a
+      internalID: 581114105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_19
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 482
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71488374d9518aa46bcbd1a9e5b09aae
+      internalID: 1812849206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 401
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a3e85c30b05c184dbffb1c8bf9254b9
+      internalID: -998465166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_21
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 401
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97a22559022bb14da84e46e18459470
+      internalID: -1701636522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_22
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 401
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f75c6be3acc7644935dfe1df30b871
+      internalID: -832466717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_23
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 401
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 254c96e9eeb7807429e47caecbb44a66
+      internalID: 1688889490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_24
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 401
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dedb09d83345293439b2d79ecf9129ef
+      internalID: -1386344943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_25
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 400
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74122376a95d1940aa64d58d2cbe4b1
+      internalID: 1001285495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_26
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 404
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9d0adc7c3b1cd4f878fdd7da6fdc40
+      internalID: 1047668186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_27
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 419
+        width: 44
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 002985f42b455be42a7cbe50a627d84d
+      internalID: 1218523106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_28
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 400
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 518f9c16c0b141c40ba664fc50d84f5b
+      internalID: -1739896144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_29
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 403
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aedc99d0f4d3564eb6ab4bed9fe7ede
+      internalID: -2010105402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_30
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 324
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18aa7fe9c2d2f74eb7b96900eb080a5
+      internalID: 1242482809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_31
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 324
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b8be888bd5b2343ae2262fb91ef972
+      internalID: -1584835444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_32
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 324
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 876544383d1a3714183f13bc3d26ca0c
+      internalID: -1536289243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_33
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 324
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a3109c65b12c24ab4151de656b32d1
+      internalID: -1972664451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_34
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 324
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b7f45f3c6ef7334a821042ac55e78d6
+      internalID: -2074761720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_35
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 324
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 480c98db3f5c9b74cbb8981116b41464
+      internalID: 1599881626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_36
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 324
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 394f588897ae3e7459ecd0ebd3db928a
+      internalID: 1952438010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_37
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 325
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ceb877d1e85944eb2a2da73ba0d3b0
+      internalID: -1138911551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_38
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 330
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a889551a8c58efe4fb847d2ebdf05c21
+      internalID: -1919776894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_39
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 329
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f951a2129023b0b4786e6c4f748e3d11
+      internalID: 2101657750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_40
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 245
+        width: 49
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 237736c6dccb77d4a99abe2ef89ec9f3
+      internalID: 844603010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_43
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 245
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1134dcef63908db4687b888d089ab0c8
+      internalID: 2141764949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_72
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 84
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc4e5f1982afb62458563da510138bae
+      internalID: 963279015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_73
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 84
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f5e3a1b81da2a44b9ab7b26282ea5bf
+      internalID: 2136523613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_74
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 84
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63ea5207ab5b9846a5ed78362adc421
+      internalID: -926453104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_75
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 84
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c82ab4b1e6d634c8a32762421547ce
+      internalID: -843750231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_76
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 84
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d122dc8db3e77468af1b2a6cbf2fcc
+      internalID: 1547739171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_77
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 84
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c63b740f77e9953409669bb1540b2904
+      internalID: -1824632362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_78
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 84
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 443837f4dad24b946904f7bece98f9b2
+      internalID: 1184971675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_79
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d4b6f45ea148284083206d53682bc52
+      internalID: 1756152339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_80
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 0
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d3eabca00d543d4da2fa376464e2fea
+      internalID: 2091015444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_81
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 0
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879331d6cfcc9e74eb18014e646238c5
+      internalID: -2084364188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_82
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 0
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fedfd1d99f19254aa2c4e6bc55aa14d
+      internalID: -512262363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_83
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 0
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 507e6189cb0b2364c8d68740e0ca7487
+      internalID: -397206049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_84
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 0
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c328e380e5b724e9564c1d54286873
+      internalID: -122175170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_85
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 0
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98953b1a5c53f4e4ebfdcbebad5f9050
+      internalID: -1977263572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_41
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 243
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 759cbc2fa2f193a4c9cba97040282002
+      internalID: 257927449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_42
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 244
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6100076ed8e2dfa41834bdc64e701c05
+      internalID: 194626842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_controller_button_rgb_170323_44
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 245
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea840aebc0996b243b21782e1046bda3
+      internalID: 1674412460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 3d00b8644186ccb46a1da9d5f70d63f8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      NX_controller_button_rgb_170323_0: -1945471086
+      NX_controller_button_rgb_170323_1: 966228099
+      NX_controller_button_rgb_170323_10: -1162790485
+      NX_controller_button_rgb_170323_11: 1302594555
+      NX_controller_button_rgb_170323_12: 1175589191
+      NX_controller_button_rgb_170323_13: -482171240
+      NX_controller_button_rgb_170323_14: -500353865
+      NX_controller_button_rgb_170323_15: -1447004376
+      NX_controller_button_rgb_170323_16: -1745196410
+      NX_controller_button_rgb_170323_17: 428542273
+      NX_controller_button_rgb_170323_18: 581114105
+      NX_controller_button_rgb_170323_19: 1812849206
+      NX_controller_button_rgb_170323_2: 507375913
+      NX_controller_button_rgb_170323_20: -998465166
+      NX_controller_button_rgb_170323_21: -1701636522
+      NX_controller_button_rgb_170323_22: -832466717
+      NX_controller_button_rgb_170323_23: 1688889490
+      NX_controller_button_rgb_170323_24: -1386344943
+      NX_controller_button_rgb_170323_25: 1001285495
+      NX_controller_button_rgb_170323_26: 1047668186
+      NX_controller_button_rgb_170323_27: 1218523106
+      NX_controller_button_rgb_170323_28: -1739896144
+      NX_controller_button_rgb_170323_29: -2010105402
+      NX_controller_button_rgb_170323_3: 2071532767
+      NX_controller_button_rgb_170323_30: 1242482809
+      NX_controller_button_rgb_170323_31: -1584835444
+      NX_controller_button_rgb_170323_32: -1536289243
+      NX_controller_button_rgb_170323_33: -1972664451
+      NX_controller_button_rgb_170323_34: -2074761720
+      NX_controller_button_rgb_170323_35: 1599881626
+      NX_controller_button_rgb_170323_36: 1952438010
+      NX_controller_button_rgb_170323_37: -1138911551
+      NX_controller_button_rgb_170323_38: -1919776894
+      NX_controller_button_rgb_170323_39: 2101657750
+      NX_controller_button_rgb_170323_4: 294675003
+      NX_controller_button_rgb_170323_40: 844603010
+      NX_controller_button_rgb_170323_41: 257927449
+      NX_controller_button_rgb_170323_42: 194626842
+      NX_controller_button_rgb_170323_43: 2141764949
+      NX_controller_button_rgb_170323_44: 1674412460
+      NX_controller_button_rgb_170323_45: 1525548201
+      NX_controller_button_rgb_170323_46: 268176829
+      NX_controller_button_rgb_170323_47: 1496648368
+      NX_controller_button_rgb_170323_48: -1777985193
+      NX_controller_button_rgb_170323_49: 1924071947
+      NX_controller_button_rgb_170323_5: -1393373705
+      NX_controller_button_rgb_170323_50: 1039718072
+      NX_controller_button_rgb_170323_51: 957768254
+      NX_controller_button_rgb_170323_52: 1128736560
+      NX_controller_button_rgb_170323_53: 1866588281
+      NX_controller_button_rgb_170323_54: 200974800
+      NX_controller_button_rgb_170323_55: -792979738
+      NX_controller_button_rgb_170323_56: 425560183
+      NX_controller_button_rgb_170323_57: -1666583327
+      NX_controller_button_rgb_170323_58: 586780949
+      NX_controller_button_rgb_170323_59: -1088054163
+      NX_controller_button_rgb_170323_6: 1790215814
+      NX_controller_button_rgb_170323_60: 2060239138
+      NX_controller_button_rgb_170323_61: 2054686146
+      NX_controller_button_rgb_170323_62: -585043231
+      NX_controller_button_rgb_170323_63: 1496192205
+      NX_controller_button_rgb_170323_64: 1265848233
+      NX_controller_button_rgb_170323_65: 1246070512
+      NX_controller_button_rgb_170323_66: -582307780
+      NX_controller_button_rgb_170323_67: -165939209
+      NX_controller_button_rgb_170323_68: 1578565314
+      NX_controller_button_rgb_170323_69: 1671899872
+      NX_controller_button_rgb_170323_7: 1678248656
+      NX_controller_button_rgb_170323_70: -497195571
+      NX_controller_button_rgb_170323_71: 113008994
+      NX_controller_button_rgb_170323_72: 963279015
+      NX_controller_button_rgb_170323_73: 2136523613
+      NX_controller_button_rgb_170323_74: -926453104
+      NX_controller_button_rgb_170323_75: -843750231
+      NX_controller_button_rgb_170323_76: 1547739171
+      NX_controller_button_rgb_170323_77: -1824632362
+      NX_controller_button_rgb_170323_78: 1184971675
+      NX_controller_button_rgb_170323_79: 1756152339
+      NX_controller_button_rgb_170323_8: 194329531
+      NX_controller_button_rgb_170323_80: 2091015444
+      NX_controller_button_rgb_170323_81: -2084364188
+      NX_controller_button_rgb_170323_82: -512262363
+      NX_controller_button_rgb_170323_83: -397206049
+      NX_controller_button_rgb_170323_84: -122175170
+      NX_controller_button_rgb_170323_85: -1977263572
+      NX_controller_button_rgb_170323_9: 108268254
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

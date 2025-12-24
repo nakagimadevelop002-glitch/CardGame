@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ca5a9b1b11297649b4545c50f350dc1, type: 3}
+  m_Name: Readme
+  m_EditorClassIdentifier: 
+  icon: {fileID: 0}
+  title: Input and Handling Controller Configurations Sample!
+  sections:
+  - heading: Overview
+    text: "This Sample is intended to provide an overview and example use cases of
+      functionality specific to Nintendo Switch. For information about how to use
+      the Input System more generally across all platforms, please refer to the Samples
+      and Documentation included with the Input System Package.\r\n\r\nThe Sample
+      includes one Scene that shows up to 4 connected controllers and shows the properties
+      of those controllers, including:\r\n\_- Connection Status of each/any JoyCon\r\n\_-
+      The Buttons pressed on the controllers\r\n\_- The Colour of each JoyCon of
+      a controller\r\n\_- The controller style (e.g. FullKey, LeftJoycon, DualJoy,
+      etc.)\r\n\r\nAdditionally, the Sample demonstrates:\r\n\_- How to set the haptics
+      per JoyCon or each motor on a Pro Controller\r\n\_- How to use the Controller
+      Applet\r\n\_- How to respond to changes in Controller Style/Orientation within
+      and outside of the Controller Applet"
+    linkText: 
+    url: 
+  - heading: Interacting with the Sample
+    text: "When pressing any JoyCon button, the corresponding button will appear
+      on the screen. However, you can press certain buttons to interact with different
+      elements of the Sample; they are:\r\n\r\n\_- +(Plus) or -(Minus) to launch
+      the Controller Support Applet\r\n\_- Left or Right Stick to play a Haptic through
+      the corresponding JoyCon"
+    linkText: 
+    url: 
+  - heading: Changeable Elements of the Sample
+    text: 'The Sample allows you to change the types and styles of controllers supported.
+      In the BasicControls scene on the GamepadManager object, you can change the
+      Play Style field to a different version of the Controler Config Style Scriptable
+      Object; see more in the Scripts section. You can choose from an existing Config
+      or create your own; the existing Configs are in the Prefabs/Config folder.
+      The existing Configs cover common gameplay scenarios:
+
+
+
+      4 Player Configurations:
+
+      -
+      4Player_All - Allows 1 - 4 Players with non-handheld JoyCons (i.e. not docked
+      to the Console) in any configuration allowed with the JoyCons in Horizontal
+      mode
+
+      - 4Player_Dual - Allows 1 - 4 Players with either Dual Joycons
+      (not docked to the Console) or a Full Key Pad (i.e. a Pro Controller)
+
+      -
+      4Player_Single_Horizontal - Allows 1 - 4 Players with a Single Joycon each
+      in Horizontal Mode
+
+      - 4Player_Single_Vertical - Allows 2 - 4 Players
+      with a Single Joycon each in Vertical Mode
+
+
+
+      Single Player Configurations:
+
+      -
+      Singleplayer_AllControllers - Allows 1 Player in either Handheld (i.e. JoyCons
+      docked to the Console), FullKey (i.e. Pro Controller) or DualJoy styles
+
+      -
+      Singleplayer_Handheld - Allows 1 Player only with the JoyCons attached to the
+      Console in Handheld Mode
+
+      - Singleplayer_RemoteControllers - Allows 1
+      Player only with JoyCons detached from the Console, either DualJoy or a FullKey
+      pad
+
+
+
+
+
+      You can change the Amplitude/Frequency of the Haptics by changing
+      the values of the GamepadHaptics component on the Controller prefab in the
+      Prefabs folder.'
+    linkText: 
+    url: 
+  - heading: Scripts
+    text: 'The scripts of the Sample are divided based on the functionality they
+      demonstrate; this may not be the best practice for your game. The contents
+      of each script are:
+
+
+
+      - ControllerConfigStyle is a Scriptable Object
+      that holds properties relating to the possible configurations that you might
+      want in a game, including NPad Styles, Hold Type, Player Count and if Single
+      Player Mode should be used for the Controller Applet
+
+
+
+      - ControllerSupportApplet
+      is a static class that shows the Controller Support Applet using the OpenControllerApplet
+      function with the player count parameters
+
+
+
+      - GamepadManager is a Manager
+      script that keeps all SampleGamepads updated on the screen. It deals with the
+      initial setup of the HID library (using the Nintendo SDK plugin) using the
+      information provided by the assigned ControllerConfigStyle. When devices are
+      added or removed from the InputSystem, it handles the hiding/unhiding of the
+      device representations in the Scene
+
+
+
+      - SampleGamepad is a container
+      class that holds the device and actions for a given Gamepad representation
+      in Scene. It links to the PlayerInput component of the PAD prefab to get input
+      from the assigned device and InputActions asset. Furthermore, it deals with
+      changing the assigned device when the configuration is changed
+
+
+
+      - GamepadDisplay
+      displays the buttons pressed on the Gamepad on the screen and other visual
+      properties of the controller: Controller Style, Joycon Colours, and whether
+      each JoyCon is connected.
+
+
+
+      - GamepadHaptics triggers haptics on the
+      JoyCons when the Left or Right Sticks are pressed on the appropriate Joycons
+
+
+
+      -
+      NpadHelpers provides helpful functions for getting the Slot Displayed on screen
+      from an NPad ID and finding an NPad device from a given NPad ID'
+    linkText: 
+    url: 
+  loadedLayout: 1

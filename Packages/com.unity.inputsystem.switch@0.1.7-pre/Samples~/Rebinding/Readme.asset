@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ca5a9b1b11297649b4545c50f350dc1, type: 3}
+  m_Name: Readme
+  m_EditorClassIdentifier: 
+  icon: {fileID: 0}
+  title: Control Scheme Sample!
+  sections:
+  - heading: Overview
+    text: "This Sample is intended to provide and overview and example of how to
+      handle changing the Control Scheme when the Controller Style is changed, in
+      this case the changes are between a DualJoy/Handheld/FullKey pad and a Horizontal
+      Left or Right Single JoyCon. For a general cross platform example of how to
+      use Control Schemes, please refer to the Samples and Documentation included
+      with the Input System Package. \r\n\r\nWhile this example only uses 1 Controller,
+      the sample theory can be applied to a game with multiple controllers."
+    linkText: 
+    url: 
+  - heading: Interacting with the Sample
+    text: 'When pressing a button on the Controller that is bound to an action in
+      the Input Action asset, a log of the Actions current phase (Started/Performed/Canceled)
+      will be logged on the screen.
+
+
+
+      You can press either +(Plus) or -(Minus)
+      to launch the Controller Support Applet.'
+    linkText: 
+    url: 
+  - heading: Input Actions
+    text: "The Sample includes the \"Controls\" Input Action asset that defines the
+      input actions that you would typically find in a basic first person shooter:
+      Jump, Shoot, Move, Reload and Aim. \r\n\r\nThe Input Action asset contains
+      three control schemes for three different modes that the game expects the player
+      to use: Full Pad, Joy Left & Joy Right. These schemes define the controls that
+      should be used when the controllers are in the appropriate mode. Note that
+      they are not automatically switched to when the controller mode is changed,
+      this is done in the RebindingPad script.\r\n\r\nThe controls for each control
+      scheme are:\r\n\r\nFull Pad:\r\n\_- Jump = Button East (This is bound to whatever
+      button is East on the Dpad/XABY pad when the Single Joycon is the correct way
+      up. When using DualJoy/Handheld/FullKey (Pro Controller), this is assigned
+      to A on the XABY pad)\r\n\_- Shoot - ZR\r\n\_- Move - Left Stick\r\n\_- Reload
+      - R\r\n\_- Aim - ZL\r\n\r\nJoy Left:\r\n\_- Jump = Button East (See note above)\r\n\_-
+      Shoot - SR (Left) - The (Left) represents the Left JoyCon \r\n\_- Move - Left
+      Stick (this will be the only stick when using a Single JoyCon)\r\n\_- Reload
+      - Button West (Assigned to the west button on the JoyCon)\r\n\_- Aim - SL (Left)
+      - The (Left) represents the Left JoyCon \r\n\r\n Joy Right:\r\n\_- Jump = Button
+      East (See note above)\r\n\_- Shoot - SR (Right) - The (Right) represents the
+      Right JoyCon \r\n\_- Move - Left Stick (this will be the only stick when using
+      a Single JoyCon)\r\n\_- Reload - Button West (Assigned to the west button on
+      the JoyCon)\r\n\_- Aim - SL (Right) - The (Right) represents the Right JoyCon
+      \r\n\r\n From the controls list above, you can see that it is possible to reuse
+      some controls across configurations without any modification (for example,
+      the sticks will automatically rotate their values when used in horizontal mode)
+      and allows some controls to be changed where it either makes for a better playing
+      experience or if a critical control is not available on the different configuration."
+    linkText: 
+    url: 
+  - heading: Changeable Elements of the Sample
+    text: All of the assigned controls to each input action can be changed in the
+      "Controls" Input Action Asset.
+    linkText: 
+    url: 
+  - heading: Scripts
+    text: 'The scripts of the Sample are divided based on the functionality they
+      demonstrate; this may not be the best practice for your game. The contents
+      of each script are:
+
+
+
+      - ControllerSupportApplet is a static class that
+      shows the Controller Support Applet using the OpenControllerApplet function
+      with the player count parameters
+
+
+
+      - GamepadDisplay updates the onscreen
+      representation of the Controller depending on its Style.
+
+
+
+      - RebindingPad
+      initializes the state of the pads to support a single player with the correct
+      JoyCon styles and IDs. When a device is changed (e.g. the Style changes) or
+      is added or removed it switches to the correct control scheme within the InputSystem'
+    linkText: 
+    url: 
+  loadedLayout: 0

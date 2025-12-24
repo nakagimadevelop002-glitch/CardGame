@@ -1,0 +1,523 @@
+fileFormatVersion: 2
+guid: 4fc946c51d31d8e4ab790d2d140fbf02
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: PS4
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Nintendo Switch
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: PS5
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NX_stick_button_rgb_170323_36
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 255
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 826792cd382265a4588dff7ab937312d
+      internalID: -1826151655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_stick_button_rgb_170323_37
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 255
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb2237360a5561f4390e603c86db2346
+      internalID: -1598401071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_stick_button_rgb_170323_38
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 255
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e834d3dbe14c145a1c641f991297d3
+      internalID: -1062216652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_stick_button_rgb_170323_39
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 178
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa1ee521755e6bd4190e8466e5535c2b
+      internalID: 716069310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_stick_button_rgb_170323_40
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 179
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c8a55e8725c6c47a87b1062e0c83bf
+      internalID: -881953428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_stick_button_rgb_170323_41
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 179
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0722b4510fbb7d543a92bb8e8f6293b8
+      internalID: -1242240769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_stick_button_rgb_170323_42
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 85
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a21a84594bd8a0042aca86108dabd6fb
+      internalID: 1521909460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_stick_button_rgb_170323_44
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 85
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ce6401c79c8cf641b0feff565e271c0
+      internalID: 1441184452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_stick_button_rgb_170323_46
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 85
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a7224c053730b040b2819835996a32d
+      internalID: -1602067156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_stick_button_rgb_170323_48
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 0
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a54d19a4207b5bf4181d4e71f7d3c374
+      internalID: -1630367902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_stick_button_rgb_170323_49
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 42
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc00ab8c1a60ca43898d76f071207bd
+      internalID: 86526744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_stick_button_rgb_170323_50
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 0
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a4a668fbb09a74d8d068916e6a22e5
+      internalID: 1316328589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_stick_button_rgb_170323_51
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 42
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 416b5e858f712414d8011a4baeec26ea
+      internalID: -2071850457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_stick_button_rgb_170323_52
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 0
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f4effd2d82c3940b3155113094e368
+      internalID: 1879075209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NX_stick_button_rgb_170323_53
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 42
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7deb1ff8cc24628468df222694151440
+      internalID: -1383331184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 7e3cd37984244594686184b2fa97e5a6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      NX_stick_button_rgb_170323_0: -415441927
+      NX_stick_button_rgb_170323_1: 1473942631
+      NX_stick_button_rgb_170323_10: 85958249
+      NX_stick_button_rgb_170323_11: 445972038
+      NX_stick_button_rgb_170323_12: 669077198
+      NX_stick_button_rgb_170323_13: 1465842016
+      NX_stick_button_rgb_170323_14: 1633822161
+      NX_stick_button_rgb_170323_15: 1622420482
+      NX_stick_button_rgb_170323_16: 1149584836
+      NX_stick_button_rgb_170323_17: -1703594715
+      NX_stick_button_rgb_170323_18: 945228774
+      NX_stick_button_rgb_170323_19: -1794929961
+      NX_stick_button_rgb_170323_2: 252173006
+      NX_stick_button_rgb_170323_20: -1795562331
+      NX_stick_button_rgb_170323_21: -1439409995
+      NX_stick_button_rgb_170323_22: -1258487337
+      NX_stick_button_rgb_170323_23: -855216528
+      NX_stick_button_rgb_170323_24: 931526671
+      NX_stick_button_rgb_170323_25: -1485440491
+      NX_stick_button_rgb_170323_26: -560451691
+      NX_stick_button_rgb_170323_27: -326993221
+      NX_stick_button_rgb_170323_28: -611054045
+      NX_stick_button_rgb_170323_29: -975312601
+      NX_stick_button_rgb_170323_3: 179456998
+      NX_stick_button_rgb_170323_30: 1866811217
+      NX_stick_button_rgb_170323_31: 948471484
+      NX_stick_button_rgb_170323_32: -768125815
+      NX_stick_button_rgb_170323_33: 1892905430
+      NX_stick_button_rgb_170323_34: -1350839939
+      NX_stick_button_rgb_170323_35: 492211549
+      NX_stick_button_rgb_170323_36: -1826151655
+      NX_stick_button_rgb_170323_37: -1598401071
+      NX_stick_button_rgb_170323_38: -1062216652
+      NX_stick_button_rgb_170323_39: 716069310
+      NX_stick_button_rgb_170323_4: 1600252207
+      NX_stick_button_rgb_170323_40: -881953428
+      NX_stick_button_rgb_170323_41: -1242240769
+      NX_stick_button_rgb_170323_42: 1521909460
+      NX_stick_button_rgb_170323_43: -1985355023
+      NX_stick_button_rgb_170323_44: 1441184452
+      NX_stick_button_rgb_170323_45: -547822815
+      NX_stick_button_rgb_170323_46: -1602067156
+      NX_stick_button_rgb_170323_47: 1839577454
+      NX_stick_button_rgb_170323_48: -1630367902
+      NX_stick_button_rgb_170323_49: 86526744
+      NX_stick_button_rgb_170323_5: 1840926468
+      NX_stick_button_rgb_170323_50: 1316328589
+      NX_stick_button_rgb_170323_51: -2071850457
+      NX_stick_button_rgb_170323_52: 1879075209
+      NX_stick_button_rgb_170323_53: -1383331184
+      NX_stick_button_rgb_170323_54: 1314439496
+      NX_stick_button_rgb_170323_6: -1282097707
+      NX_stick_button_rgb_170323_7: -827090685
+      NX_stick_button_rgb_170323_8: -1870830556
+      NX_stick_button_rgb_170323_9: 2061500159
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

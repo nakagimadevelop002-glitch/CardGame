@@ -1,0 +1,428 @@
+{
+    "name": "GamepadControls",
+    "maps": [
+        {
+            "name": "Actions",
+            "id": "b5161206-8c9a-43a1-80d7-c7be86fa582c",
+            "actions": [
+                {
+                    "name": "Press A",
+                    "type": "Button",
+                    "id": "9507f622-0b64-44a5-939d-2077528cd9f0",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Press X",
+                    "type": "Button",
+                    "id": "b1ac7f14-f0e4-46c2-82f0-eeebc9a1be23",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Press Y",
+                    "type": "Button",
+                    "id": "d96518ec-b502-400e-9a79-c56bd8013b67",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Press B",
+                    "type": "Value",
+                    "id": "f5f3ebda-5721-49bf-bf16-abd2e12a0cc8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "DPad",
+                    "type": "Value",
+                    "id": "42692a18-b6f4-481a-8985-90c28c5196a4",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "LeftStick",
+                    "type": "Value",
+                    "id": "eaa731ca-b942-4841-a454-ede00076db0c",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "RightStick",
+                    "type": "Value",
+                    "id": "a6a1cde2-7216-4c11-899d-a69886fb401a",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "LeftStickPress",
+                    "type": "Button",
+                    "id": "76662e6e-6130-45f4-aebd-422bbcf54521",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RightStickPress",
+                    "type": "Button",
+                    "id": "0a0c44d6-1c06-4c3f-8da9-0abadb6e1cdd",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Press L",
+                    "type": "Button",
+                    "id": "d4c1ed88-95e9-4222-8a93-e0111c40439d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Press R",
+                    "type": "Button",
+                    "id": "10c5bc98-6f8c-4f1d-8ba7-8b880b977d75",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Press ZL",
+                    "type": "Button",
+                    "id": "433d45f2-d4bb-4739-9774-cf9252d65dbe",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Press ZR",
+                    "type": "Button",
+                    "id": "1b5c0b09-11f5-4519-8772-c9dee52f3dc1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Press SL",
+                    "type": "Button",
+                    "id": "dbccc8cc-40ec-44e7-a0fc-dac0e2604f5a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Press SR",
+                    "type": "Button",
+                    "id": "6ed7d284-3104-4c1b-a78a-61e9ae448b27",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Press Plus",
+                    "type": "Button",
+                    "id": "7ebe4db8-b8e1-452b-a2ee-66d9cd3b34dc",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Press Minus",
+                    "type": "Button",
+                    "id": "b6f6e8a0-b780-4366-8fd1-462e102ddffa",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RumbleLeft",
+                    "type": "Button",
+                    "id": "5ad0f4d8-0005-42d3-8dd3-a9266dc9c330",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RumbleRight",
+                    "type": "Button",
+                    "id": "290d204b-5f53-490b-9d9f-a97ed4fede41",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d3ab7c75-74a4-4644-b7a3-4fc4c41ead0d",
+                    "path": "<NPad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Dual",
+                    "action": "Press A",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8e21b873-fc36-4ea7-ac90-3be385386fb7",
+                    "path": "<NPad>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Dual",
+                    "action": "Press X",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8ff6ec64-0f06-48ca-b956-6bf55751e4e4",
+                    "path": "<NPad>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Dual",
+                    "action": "Press Y",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "98b854bb-f129-43a1-bec3-3f48492a061b",
+                    "path": "<NPad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Dual",
+                    "action": "Press B",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3fb9a14f-f276-4757-acab-73707090a9e0",
+                    "path": "<NPad>/dpad",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DPad",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1acdf286-55be-44f0-8113-6758074e8a67",
+                    "path": "<NPad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftStick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ff43aaf6-0067-450d-ae9f-e62b617ff177",
+                    "path": "<NPad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightStick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3d8b1571-b4ed-4c89-b09e-fb5331980271",
+                    "path": "<NPad>/leftStickPress",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftStickPress",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a100c7c5-0550-4131-b54f-523b49851080",
+                    "path": "<NPad>/rightStickPress",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightStickPress",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "01e1d246-9611-4da3-ae67-76d36d6d1395",
+                    "path": "<NPad>/leftShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Press L",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f1af4332-e5de-4323-a632-7ce7acf50966",
+                    "path": "<NPad>/leftTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Press ZL",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "742dfee7-b5d7-4e58-8061-ebf4e3c964b6",
+                    "path": "<NPad>/rightShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Press R",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a60ea25d-a9d0-4e08-bef1-7ac979ab1fc3",
+                    "path": "<NPad>/rightTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Press ZR",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dbbbbf04-20e0-4d6a-bf4c-5f169e20b14e",
+                    "path": "<NPad>/leftSL",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Press SL",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0bc31ce7-fc46-4b7e-aae3-2fbd1df42749",
+                    "path": "<NPad>/rightSL",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Press SL",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0c9e5c72-856f-43cf-b228-96c5c8f02e17",
+                    "path": "<NPad>/leftSR",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Press SR",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "46dc1095-9e60-4e9d-830a-166b4c23f3c2",
+                    "path": "<NPad>/rightSR",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Press SR",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9a9a31e2-cba2-4634-a8a6-f5883473c8d0",
+                    "path": "<NPad>/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Press Plus",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "968ce333-4e00-406e-a6ff-936aebdf1a4f",
+                    "path": "<NPad>/select",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Press Minus",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c4f57165-f7c6-4fba-ae5e-37972654de11",
+                    "path": "<NPad>/leftStickPress",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Dual",
+                    "action": "RumbleLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cd2eb209-b2bf-46b4-af2e-719e24bb52b8",
+                    "path": "<NPad>/rightStickPress",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Dual",
+                    "action": "RumbleRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Dual",
+            "bindingGroup": "Dual",
+            "devices": [
+                {
+                    "devicePath": "<NPad>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "com.unity.inputsystem.switch",
+  "displayName": "Input System Switch",
+  "version": "0.1.7-pre",
+  "unity": "2019.4",
+  "description": "Switch Devices for new Input System",
+  "keywords": [
+    "input",
+    "keyboard",
+    "mouse",
+    "gamepad",
+    "touch"
+  ],
+  "author": "Unity",
+  "dependencies": {
+    "com.unity.inputsystem": "1.1.0-pre.5"
+  },
+  "samples": [
+    {
+      "displayName": "Input and Controller Support Applet",
+      "description": "Sample that shows the basics of getting input from a NPad and how to assign controllers based on the outcome of the Controller Support Applet\n<b>IMPORTANT: You must install the Nintendo SDK Plugin for this Sample</b>",
+      "path": "Samples~/InputAndControllerApplet"
+    },
+    {
+      "displayName": "Controller Rebinding",
+      "description": "Sample that shows how to rebind a controller based on the style of the NPad\n<b>IMPORTANT: You must install the Nintendo SDK Plugin for this Sample</b>",
+      "path": "Samples~/Rebinding"
+    }
+  ]
+}
