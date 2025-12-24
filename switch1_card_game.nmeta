@@ -11,13 +11,13 @@
   </Core>
   <Application>
     <Title>
-      <Language>AmericanEnglish</Language>
+      <Language>Japanese</Language>
       <Name>TCG_ReaserchTCG</Name>
       <Publisher>TheUniversityOfTokyo</Publisher>
     </Title>
     <Icon>
-      <Language>AmericanEnglish</Language>
-      <IconPath UseEnvironmentVariable="true">%NINTENDO_SDK_ROOT%\Resources\SpecFiles\NintendoSDK_Application.bmp</IconPath>
+      <Language>Japanese</Language>
+      <IconPath UseEnvironmentVariable="true">C:\Users\Simna\TCG_Switch\CardGame\Assets\Switch\Icons\IconBase.bmp</IconPath>
     </Icon>
     <ReleaseVersion>0</ReleaseVersion>
     <DisplayVersion>1.0</DisplayVersion>
