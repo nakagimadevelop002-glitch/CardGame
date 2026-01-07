@@ -17,6 +17,16 @@ public class CursorManager : MonoBehaviour
     [SerializeField]
     List<Button> buttons = new List<Button>();
 
+    Transform BoostChoicePanel => this.transform.Find("BoostChoicePanel");
+    bool ActiveBoostPanel => BoostChoicePanel != null && BoostChoicePanel.gameObject.activeSelf;
+    Button[] BoostChoiceButtons => BoostChoicePanel.GetComponentsInChildren<Button>();
+    Transform ManaActionPanel => this.transform.Find("ManaActionPanel");
+    bool ActiveManaActionPanel => ManaActionPanel != null && ManaActionPanel.gameObject.activeSelf;
+    Button[] ManaActionPanelButtons => ManaActionPanel.GetComponentsInChildren<Button>();
+    Transform HandPanel => this.transform.Find("HandPanel");
+    bool ActiveHandPanel => HandPanel != null && HandPanel.gameObject.activeSelf;
+    Button[] HandPanelButtons => HandPanel.GetComponentsInChildren<Button>();
+
     private void Update()
     {
         currentTimer += Time.deltaTime;
@@ -24,8 +34,21 @@ public class CursorManager : MonoBehaviour
         {
             
             currentTimer = 0;
-            var newButtons = FindObjectsByType<Button>(FindObjectsSortMode.InstanceID).OrderBy(item=>item.transform.GetSiblingIndex()).ToList();
-            //TODO:グルーピングを行い上部と下部でボタン分けする
+            //List<Button> newButtons = FindObjectsByType<Button>(FindObjectsSortMode.InstanceID).OrderBy(item=>item.transform.GetSiblingIndex()).ToList();
+            List<Button> newButtons = null;
+            if (ActiveBoostPanel)
+            {
+                newButtons = BoostChoiceButtons.ToList();
+            }
+            else if (ActiveManaActionPanel)
+            {
+                newButtons = ManaActionPanelButtons.ToList();
+            }
+            else
+            {
+                newButtons = HandPanelButtons.ToList();
+            }
+
             bool same = buttons.SequenceEqual(newButtons);
             if (!same)
             {
