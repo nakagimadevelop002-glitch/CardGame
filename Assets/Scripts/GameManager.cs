@@ -50,6 +50,7 @@ namespace ResearchTCG
 
         // --- UI ---
         private Canvas canvas;
+        public Canvas Canvas => canvas;
         private RectTransform headerPanel, phasePanel, centerPanel, handPanel;
         private Text headerText, infoText, playerLabel, aiLabel, resultText, phaseText, manaText;
         private Image playerPlayedImage, aiPlayedImage;

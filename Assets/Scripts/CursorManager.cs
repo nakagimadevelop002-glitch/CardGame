@@ -1,4 +1,5 @@
 using NUnit.Framework;
+using ResearchTCG;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +11,8 @@ public class CursorManager : MonoBehaviour
 {
     [SerializeField]
     Cursor cursor;
+    [SerializeField]
+    GameManager gameManager;
     //GameObject[] cursorObjects= { };
     int curentIndex;
     const float UPDATE_CURSOR_TIMER = 1;
@@ -17,22 +20,26 @@ public class CursorManager : MonoBehaviour
     [SerializeField]
     List<Button> buttons = new List<Button>();
 
-    Transform BoostChoicePanel => this.transform.Find("BoostChoicePanel");
+    Transform BoostChoicePanel => gameManager.Canvas.transform.Find("BoostChoicePanel");
     bool ActiveBoostPanel => BoostChoicePanel != null && BoostChoicePanel.gameObject.activeSelf;
     Button[] BoostChoiceButtons => BoostChoicePanel.GetComponentsInChildren<Button>();
-    Transform ManaActionPanel => this.transform.Find("ManaActionPanel");
+    Transform ManaActionPanel => gameManager.Canvas.transform.Find("ManaActionPanel");
     bool ActiveManaActionPanel => ManaActionPanel != null && ManaActionPanel.gameObject.activeSelf;
     Button[] ManaActionPanelButtons => ManaActionPanel.GetComponentsInChildren<Button>();
-    Transform HandPanel => this.transform.Find("HandPanel");
+    Transform HandPanel => gameManager.Canvas.transform.Find("HandPanel");
     bool ActiveHandPanel => HandPanel != null && HandPanel.gameObject.activeSelf;
     Button[] HandPanelButtons => HandPanel.GetComponentsInChildren<Button>();
 
+    private void Start()
+    {
+        
+    }
     private void Update()
     {
         currentTimer += Time.deltaTime;
         if(currentTimer> UPDATE_CURSOR_TIMER)
         {
-            
+            this.gameManager = FindObjectsByType<GameManager>(FindObjectsSortMode.InstanceID)[0];
             currentTimer = 0;
             //List<Button> newButtons = FindObjectsByType<Button>(FindObjectsSortMode.InstanceID).OrderBy(item=>item.transform.GetSiblingIndex()).ToList();
             List<Button> newButtons = null;
@@ -91,8 +98,18 @@ public class CursorManager : MonoBehaviour
         {
             return;
         }
-        this.curentIndex = curentIndex==0? buttons.Count: (curentIndex - 1);
-        cursor.transform.position = buttons[curentIndex].transform.position;
+        this.curentIndex = curentIndex==0? buttons.Count-1: (curentIndex - 1);
+        
+        try
+        {
+            cursor.transform.position = buttons[curentIndex].transform.position;
+        }
+        catch (System.Exception)
+        {
+            Debug.Log("curentIndex:" + curentIndex + ":buttons.Count" + buttons.Count);
+            throw;
+        }
+        
         SetCursorSize();
     }
 
