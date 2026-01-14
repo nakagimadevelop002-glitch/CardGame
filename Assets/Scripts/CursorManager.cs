@@ -1,3 +1,4 @@
+using KanKikuchi.AudioManager;
 using NUnit.Framework;
 using ResearchTCG;
 using System.Collections;
@@ -135,6 +136,7 @@ public class CursorManager : MonoBehaviour
         {
             return;
         }
+        SEManager.Instance.Play(SEPath.DECISION);
         buttons[curentIndex].onClick.Invoke();
         //Debug.Log("OnAttack");
     }
@@ -142,6 +144,7 @@ public class CursorManager : MonoBehaviour
     {
         // MoveAction‚Ì“ü—Í’l‚ðŽæ“¾
         var movementInput = value.Get<Vector2>();
+        SEManager.Instance.Play(SEPath.CURSOL_MOVE);
         if (movementInput.x > 0)
         {
             GotoNext();

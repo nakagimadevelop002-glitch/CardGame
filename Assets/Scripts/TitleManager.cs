@@ -1,3 +1,4 @@
+using KanKikuchi.AudioManager;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
@@ -27,7 +28,7 @@ public class TitleManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
+        BGMManager.Instance.Play(BGMPath.FANTASY14);
         int currentScore = PlayerPrefs.GetInt("PlayerScore");
         int aiScore = PlayerPrefs.GetInt("AIScore");
         if (currentScore == 0)
