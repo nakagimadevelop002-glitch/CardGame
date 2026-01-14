@@ -35,8 +35,10 @@ namespace ResearchTCG
         public int initialMana = 0; // 初期マナ（0に変更 - 駆け引き重視）
 
         // --- Runtime state ---
+        [SerializeField]
         private List<Card> allCards;
         private List<Card> playerDeck, aiDeck;
+        [SerializeField]
         private List<Card> playerHand, aiHand;
         private int playerScore = 0, aiScore = 0;
         private int playerMana = 0, aiMana = 0;
@@ -54,6 +56,7 @@ namespace ResearchTCG
         private RectTransform headerPanel, phasePanel, centerPanel, handPanel;
         private Text headerText, infoText, playerLabel, aiLabel, resultText, phaseText, manaText;
         private Image playerPlayedImage, aiPlayedImage;
+        private Image playerMonsterImage, aiMonsterImage;
         private GameObject resultPanel;
         private GameObject manaActionPanel; // マナアクション選択パネル
         private Button boostButton, mulliganButton, skipButton;
@@ -221,6 +224,12 @@ namespace ResearchTCG
             playerPlayedImage.transform.SetAsFirstSibling(); // 最背面に配置
             playerPlayedImage.preserveAspect = true; // アスペクト比維持
             playerPlayedImage.color = Color.clear;
+
+            var monGo = new GameObject("PlayerMonsterImage");
+            monGo.transform.SetParent(playerPlayedImage.transform, false);
+            playerMonsterImage = monGo.AddComponent<Image>();
+
+
             var plImgRT = playerPlayedImage.rectTransform;
             plImgRT.anchorMin = new Vector2(0.12f, 0.42f); // 左側に
             plImgRT.anchorMax = new Vector2(0.12f, 0.42f);
@@ -238,6 +247,11 @@ namespace ResearchTCG
             aiPlayedImage = aiImgGO.AddComponent<Image>();
             aiPlayedImage.transform.SetAsFirstSibling(); // 最背面に配置
             aiPlayedImage.preserveAspect = true; // アスペクト比維持
+
+            var aiMonGo = new GameObject("AIMonsterImage");
+            aiMonGo.transform.SetParent(aiPlayedImage.transform, false);
+            aiMonsterImage = aiMonGo.AddComponent<Image>();
+
             var aiImgRT = aiPlayedImage.rectTransform;
             aiImgRT.anchorMin = new Vector2(0.88f, 0.42f); // 右側に
             aiImgRT.anchorMax = new Vector2(0.88f, 0.42f);
@@ -397,6 +411,7 @@ namespace ResearchTCG
 
         Sprite LoadSprite(string pathNoExt)
         {
+            Debug.LogError(pathNoExt);
             if (string.IsNullOrEmpty(pathNoExt)) return null;
             if (spriteCache.TryGetValue(pathNoExt, out var sp)) return sp;
             var s = Resources.Load<Sprite>(pathNoExt);
@@ -696,7 +711,9 @@ namespace ResearchTCG
 
             // カードの初期化
             playerPlayedImage.sprite = LoadSprite(playerCard.sprite);
+            playerMonsterImage.sprite = LoadSprite(playerCard.monster_sprite);
             aiPlayedImage.sprite = LoadSprite(aiCard.sprite);
+            aiMonsterImage.sprite = LoadSprite(aiCard.monster_sprite);
             playerPlayedImage.color = GetCardColor(playerCard.type);
             aiPlayedImage.color = GetCardColor(aiCard.type);
             playerLabel.text = $"{playerCard.name}\n<size=24><color=yellow>ATK {playerCard.attack}</color></size>";

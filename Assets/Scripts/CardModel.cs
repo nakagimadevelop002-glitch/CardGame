@@ -13,6 +13,7 @@ namespace ResearchTCG
         public string type;
         // Path relative to Resources folder without extension, e.g., "Sprites/fire"
         public string sprite;
+        public string monster_sprite;
     }
 
     [Serializable]
