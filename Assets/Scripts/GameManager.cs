@@ -230,7 +230,7 @@ namespace ResearchTCG
             var monGo = new GameObject("PlayerMonsterImage");
             monGo.transform.SetParent(playerPlayedImage.transform, false);
             playerMonsterImage = monGo.AddComponent<Image>();
-
+            playerMonsterImage.transform.localScale = new Vector3(2,2,2);
 
             var plImgRT = playerPlayedImage.rectTransform;
             plImgRT.anchorMin = new Vector2(0.12f, 0.42f); // 左側に
@@ -253,6 +253,7 @@ namespace ResearchTCG
             var aiMonGo = new GameObject("AIMonsterImage");
             aiMonGo.transform.SetParent(aiPlayedImage.transform, false);
             aiMonsterImage = aiMonGo.AddComponent<Image>();
+            aiMonsterImage.transform.localScale = new Vector3(2,2,2);
 
             var aiImgRT = aiPlayedImage.rectTransform;
             aiImgRT.anchorMin = new Vector2(0.88f, 0.42f); // 右側に
@@ -715,8 +716,10 @@ namespace ResearchTCG
             // カードの初期化
             playerPlayedImage.sprite = LoadSprite(playerCard.sprite);
             playerMonsterImage.sprite = LoadSprite(playerCard.monster_sprite);
+            playerMonsterImage.SetNativeSize();
             aiPlayedImage.sprite = LoadSprite(aiCard.sprite);
             aiMonsterImage.sprite = LoadSprite(aiCard.monster_sprite);
+            aiMonsterImage.SetNativeSize();
             playerPlayedImage.color = GetCardColor(playerCard.type);
             aiPlayedImage.color = GetCardColor(aiCard.type);
             playerMonsterImage.color = Color.white;
