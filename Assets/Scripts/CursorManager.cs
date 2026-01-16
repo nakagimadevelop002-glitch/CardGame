@@ -16,7 +16,7 @@ public class CursorManager : MonoBehaviour
     GameManager gameManager;
     //GameObject[] cursorObjects= { };
     int curentIndex;
-    const float UPDATE_CURSOR_TIMER = 1;
+    const float UPDATE_CURSOR_TIMER = 0.2f;
     float currentTimer = 0;
     [SerializeField]
     List<Button> buttons = new List<Button>();
