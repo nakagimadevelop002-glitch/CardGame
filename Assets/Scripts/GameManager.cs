@@ -37,6 +37,7 @@ namespace ResearchTCG
         // --- Runtime state ---
         [SerializeField]
         private List<Card> allCards;
+        [SerializeField]
         private List<Card> playerDeck, aiDeck;
         [SerializeField]
         private List<Card> playerHand, aiHand;
@@ -45,6 +46,7 @@ namespace ResearchTCG
         private int turnNumber = 0;
         private bool waitingForPlayer = false;
         private float turnStartTime = 0f;
+        
         private Phase currentPhase = Phase.CardSelection;
         private Card selectedCardToPlay = null; // 選択されたカード（マナ獲得フェーズで使用）
         private int playerBoostAmount = 0; // ブースト量（次のカードに適用）
@@ -411,7 +413,6 @@ namespace ResearchTCG
 
         Sprite LoadSprite(string pathNoExt)
         {
-            Debug.LogError(pathNoExt);
             if (string.IsNullOrEmpty(pathNoExt)) return null;
             if (spriteCache.TryGetValue(pathNoExt, out var sp)) return sp;
             var s = Resources.Load<Sprite>(pathNoExt);
@@ -475,7 +476,7 @@ namespace ResearchTCG
                 // shallow copy to avoid reference aliasing
                 deck.Add(new Card
                 {
-                    id = c.id, name = c.name, attack = c.attack, cost = c.cost, type = c.type, sprite = c.sprite
+                    id = c.id, name = c.name, attack = c.attack, cost = c.cost, type = c.type, sprite = c.sprite, monster_sprite = c.monster_sprite
                 });
             }
             return deck;
@@ -509,12 +510,14 @@ namespace ResearchTCG
                 aiPlayedImage.sprite = null;
                 //aiPlayedImage.color = Color.white;
                 aiPlayedImage.color = Color.clear;
+                aiMonsterImage.color = Color.clear;
             }
             if (playerPlayedImage != null)
             {
                 playerPlayedImage.sprite = null;
                 //playerPlayedImage.color = Color.white;
                 playerPlayedImage.color = Color.clear;
+                playerMonsterImage.color = Color.clear;
             }
             if (aiLabel != null) aiLabel.text = "敵 AI";
             if (playerLabel != null) playerLabel.text = "あなた";
@@ -716,6 +719,8 @@ namespace ResearchTCG
             aiMonsterImage.sprite = LoadSprite(aiCard.monster_sprite);
             playerPlayedImage.color = GetCardColor(playerCard.type);
             aiPlayedImage.color = GetCardColor(aiCard.type);
+            playerMonsterImage.color = Color.white;
+            aiMonsterImage.color = Color.white;
             playerLabel.text = $"{playerCard.name}\n<size=24><color=yellow>ATK {playerCard.attack}</color></size>";
             aiLabel.text = $"{aiCard.name}\n<size=24><color=yellow>ATK {aiCard.attack}</color></size>";
 
