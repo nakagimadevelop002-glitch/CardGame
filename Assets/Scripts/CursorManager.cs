@@ -16,7 +16,7 @@ public class CursorManager : MonoBehaviour
     GameManager gameManager;
     //GameObject[] cursorObjects= { };
     int curentIndex;
-    const float UPDATE_CURSOR_TIMER = 0.2f;
+    const float UPDATE_CURSOR_TIMER = 0.3f;
     float currentTimer = 0;
     [SerializeField]
     List<Button> buttons = new List<Button>();
@@ -30,7 +30,7 @@ public class CursorManager : MonoBehaviour
     Transform HandPanel => gameManager.Canvas.transform.Find("HandPanel");
     bool ActiveHandPanel => HandPanel != null && HandPanel.gameObject.activeSelf;
     Button[] HandPanelButtons => HandPanel.GetComponentsInChildren<Button>();
-
+    bool onMove;
     private void Start()
     {
         
@@ -40,6 +40,7 @@ public class CursorManager : MonoBehaviour
         currentTimer += Time.deltaTime;
         if(currentTimer> UPDATE_CURSOR_TIMER)
         {
+            onMove = false;
             this.gameManager = FindObjectsByType<GameManager>(FindObjectsSortMode.InstanceID)[0];
             currentTimer = 0;
             //List<Button> newButtons = FindObjectsByType<Button>(FindObjectsSortMode.InstanceID).OrderBy(item=>item.transform.GetSiblingIndex()).ToList();
@@ -77,7 +78,7 @@ public class CursorManager : MonoBehaviour
 
     void GotoNext()
     {
-        if (buttons.Count == 0)
+        if (buttons.Count == 0|| onMove)
         {
             return;
         }
@@ -85,6 +86,7 @@ public class CursorManager : MonoBehaviour
         cursor.transform.position = buttons[curentIndex].transform.position;
 
         SetCursorSize();
+        onMove = true;
     }
 
     Vector2 GetSize(RectTransform rectTransform)
@@ -95,7 +97,7 @@ public class CursorManager : MonoBehaviour
 
     void GotoPrev()
     {
-        if (buttons.Count == 0)
+        if (buttons.Count == 0|| onMove)
         {
             return;
         }
@@ -112,6 +114,7 @@ public class CursorManager : MonoBehaviour
         }
         
         SetCursorSize();
+        onMove = true;
     }
 
     void SetCursorSize()
@@ -132,14 +135,27 @@ public class CursorManager : MonoBehaviour
     }
     public void OnAttack(InputValue value)
     {
+        OnButton();
+    }
+    public void OnJump(InputValue value)
+    {
+        OnButton();
+    }
+    public void OnNext(InputValue value)
+    {
+        OnButton();
+    }
+
+    private void OnButton()
+    {
         if (buttons.Count == 0)
         {
             return;
         }
         SEManager.Instance.Play(SEPath.DECISION);
         buttons[curentIndex].onClick.Invoke();
-        //Debug.Log("OnAttack");
     }
+
     public void OnMove(InputValue value)
     {
         // MoveAction‚Ì“ü—Í’l‚ðŽæ“¾
