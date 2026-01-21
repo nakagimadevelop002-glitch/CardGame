@@ -12,7 +12,7 @@
   <Application>
     <Title>
       <Language>Japanese</Language>
-      <Name>TCG_ReaserchTCG</Name>
+      <Name>SimpleCardGame</Name>
       <Publisher>TheUniversityOfTokyo</Publisher>
     </Title>
     <Icon>
@@ -40,5 +40,9 @@
     <PlayLogPolicy>Open</PlayLogPolicy>
     <RuntimeParameterDelivery>Always</RuntimeParameterDelivery>
     <ContentsAvailabilityTransitionPolicy>Stable</ContentsAvailabilityTransitionPolicy>
+    <Rating>
+        <Organization>IARCGeneric</Organization>
+        <Age>3</Age>
+    </Rating>
   </Application>
 </NintendoSdkMeta>
