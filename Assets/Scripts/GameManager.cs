@@ -4895,8 +4895,16 @@ namespace ResearchTCG
             int currentScore=PlayerPrefs.GetInt("PlayerScore");
             if(playerScore> currentScore)
             {
+
+
+#if UNITY_SWITCH && !UNITY_EDITOR
+                NintendoSaveManager.SaveSlot("PlayerScore", playerScore.ToString());
+                NintendoSaveManager.SaveSlot("AIScore", aiScore.ToString());
+#else
                 PlayerPrefs.SetInt("PlayerScore", playerScore);
                 PlayerPrefs.SetInt("AIScore", aiScore);
+#endif
+
             }
             //タイトルに戻る
             UnityEngine.SceneManagement.SceneManager.LoadScene("Title");

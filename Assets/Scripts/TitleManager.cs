@@ -29,8 +29,18 @@ public class TitleManager : MonoBehaviour
     void Start()
     {
         BGMManager.Instance.Play(BGMPath.FANTASY14);
-        int currentScore = PlayerPrefs.GetInt("PlayerScore");
-        int aiScore = PlayerPrefs.GetInt("AIScore");
+        
+        int currentScore = 0;
+        int aiScore = 0;
+
+
+#if UNITY_SWITCH && !UNITY_EDITOR
+        int.TryParse(NintendoSaveManager.LoadSlot("PlayerScore"), out currentScore);
+        int.TryParse(NintendoSaveManager.LoadSlot("AIScore"), out aiScore);
+#else
+        currentScore = PlayerPrefs.GetInt("PlayerScore");
+        aiScore = PlayerPrefs.GetInt("AIScore");
+#endif
         if (currentScore == 0)
         {
             scoreText.text = "";

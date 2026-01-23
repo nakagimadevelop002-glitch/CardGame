@@ -837,7 +837,7 @@ PlayerSettings:
   webWasm2023: 0
   webEnableSubmoduleStrippingCompatibility: 0
   scriptingDefineSymbols:
-    Nintendo Switch: UNITY_SWITCH_FIXED_MAX_QUEUED_FRAMES
+    Nintendo Switch: UNITY_SWITCH_FIXED_MAX_QUEUED_FRAMES;NN_ACCOUNT_OPENUSER_ENABLE
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
