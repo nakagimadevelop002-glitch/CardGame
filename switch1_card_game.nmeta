@@ -31,8 +31,16 @@
     <LogoType>LicensedByNintendo</LogoType>
     <LogoHandling>Auto</LogoHandling>
     <Rating>
-      <Organization>IARCGeneric</Organization>
-      <Age>3</Age>
+        <Organization>ClassInd</Organization>
+        <Age>0</Age>
+    </Rating>
+    <Rating>
+        <Organization>IARCGeneric</Organization>
+        <Age>3</Age>
+    </Rating>
+    <Rating>
+        <Organization>ESRB</Organization>
+        <Age>6</Age>
     </Rating>
     <LegalInformationFilePath>Assets\Switch\SLIM\legal_info_0100acf026afa000_7c50_hac.zip</LegalInformationFilePath>
     <VideoCapture>Enable</VideoCapture>
