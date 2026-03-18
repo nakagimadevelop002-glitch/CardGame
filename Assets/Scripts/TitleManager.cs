@@ -35,6 +35,7 @@ public class TitleManager : MonoBehaviour
 
 
 #if UNITY_SWITCH && !UNITY_EDITOR
+        NintendoSaveManager.Init();
         int.TryParse(NintendoSaveManager.LoadSlot("PlayerScore"), out currentScore);
         int.TryParse(NintendoSaveManager.LoadSlot("AIScore"), out aiScore);
 #else
